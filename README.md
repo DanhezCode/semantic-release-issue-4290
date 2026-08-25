@@ -1,5 +1,9 @@
 # semantic-release-issue-4290
 
+> [!NOTE]
+> This repository has been archived because the issue has been solved.
+> The solution is documented in this same repo. See the [Solution](#solution) section and the [workflows directory](./.github/workflows/).
+
 Minimal reproduction for the bug reported in [semantic-release/semantic-release#4290](https://github.com/semantic-release/semantic-release/issues/4290): when the release workflow is triggered via `workflow_run` (separate from the `check` workflow), `semantic-release` always detects `main` instead of the actual branch that triggered the push (e.g. `beta`), breaking prerelease generation.
 
 ## Branch structure
